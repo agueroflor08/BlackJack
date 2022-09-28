@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header{
+    background-color: rgb(138, 12, 12);
+    height: 8vh;
+    margin: 1em;
+    width: 50%;
+}
+h1{
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    padding: 0.3em;
+}
+h2{
+    color: green;
+}
+
+.juego{
+    margin: 1em;
+    width: 50%;
+}
+strong{
+    color: red;
+}
+form{
+    padding: 2em;
+    margin: auto;
+    width: 25%;
+    border: 0.1em solid cadetblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+input{
+    border: 0.1em black solid;
+}
+fieldset{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+#boton{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    padding: 1em;
+}
+#boton:focus, #boton:hover{
+    font-size: 1em;
+    width: 22%;
+}
+label{
+    margin-right: 0.5em;
+}
+#ganadores{
+    width: 50%;
+    background-color: rgb(211, 183, 122);
+    margin: 1em;
+}
+#p-ganadores{
+    padding: 0.5em;
+    color: rgb(89, 18, 18);
+    font-size: 1.2em;
+}
+.jugador{
+    font-size: 1.2em;
+    font-weight: bold
+}
+a{
+    margin: auto;
+    text-decoration: none;
+    color: rgb(138, 12, 12);
+    font-weight: bold;
+}
+a:hover, a:focus{
+    font-size: 1.2em
+}
+.enlace{
+    text-align: center;
+    margin: 1em;
+}
